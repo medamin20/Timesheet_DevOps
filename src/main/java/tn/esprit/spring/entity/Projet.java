@@ -41,16 +41,16 @@ public class Projet implements Serializable {
 		return name_project;
 	}
 
-	public void setName_project(String name_project) {
-		this.name_project = name_project;
+	public void setName_project(String nameProject) {
+		this.name_project = nameProject;
 	}
 
 	public String getDescription_project() {
 		return description_project;
 	}
 
-	public void setDescription_project(String description_project) {
-		this.description_project = description_project;
+	public void setDescription_project(String descriptionProject) {
+		this.description_project = descriptionProject;
 	}
 
 	public Departement getDepartement() {
@@ -95,23 +95,23 @@ public class Projet implements Serializable {
 				+ ", departement=" + departement + ", employes=" + employes + "]";
 	}
 
-	public Projet(String name_project, String description_project, Departement departement, List<Employe> employes) {
+	public Projet(String nameProject, String descriptionProject, Departement departement, List<Employe> employes) {
 		super();
-		this.name_project = name_project;
-		this.description_project = description_project;
+		this.name_project = nameProject;
+		this.description_project = descriptionProject;
 		this.departement = departement;
 		this.employes = employes;
 	}
 
-	public Projet(String name_project, String description_project) {
+	public Projet(String nameProject, String descriptionProject) {
 		super();
-		this.name_project = name_project;
-		this.description_project = description_project;
+		this.name_project = nameProject;
+		this.description_project = descriptionProject;
 	}
 
 	public Projet() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 
 }

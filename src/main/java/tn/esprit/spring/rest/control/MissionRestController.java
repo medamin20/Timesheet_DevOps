@@ -49,12 +49,6 @@ public class MissionRestController {
 		return ms.getMissionNumber();
 		}
 		
-		@PutMapping("/update-Mission")
-		@ResponseBody
-		public Mission updateMission(@RequestBody Mission mis) {
-		return ms.missionUpadate(mis);
-				
-		}
 		
 		
 		

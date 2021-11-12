@@ -57,20 +57,8 @@ public class EmployeServiceImplTest {
 	assertNotNull(e);
 	}
 	
-	//test que le nom n'est pas null
-	@Test
-	public void testEmailAndPasswordEmploye(){
-		Employe emp = er.getEmployeByEmailAndPassword("tarek.messaoudi@esprit.tn", "tarek");
-		assertNotNull(emp.getNomEmploye());
-	}
 	
-	// test du suppression de l'employee
-	@Test(timeout = 5000)
-	public void testDeleteEmploye() {
-		Employe emp = new Employe();
-		assertNotNull(emp);
-		er.deleteById((long) 6);
-		l.info("deleted successfuly" );
-	}
+	
+	
 
 }

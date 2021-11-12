@@ -14,6 +14,6 @@ public interface IMissionService {
 
 	long getMissionNumber();
 
-	Mission missionUpadate(Mission Miss);
+	
 	
 }

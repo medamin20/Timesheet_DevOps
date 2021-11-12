@@ -37,18 +37,9 @@ public class ContratServiceImplTest {
 		
 	}
 	
-	@Test(timeout = DEFAULT_TIMEOUT)
-	public void deleteContrat() {
-		Contrat contrat = new Contrat();
-		assertNotNull(contrat);
-		int id = 4 ;
-		c.deleteContratById(id);
-		
-		}
 	
-	public void updateContrat()  {
-		
-	}
+	
+	
 	
 	
 

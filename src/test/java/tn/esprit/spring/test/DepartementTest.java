@@ -51,14 +51,10 @@ public class DepartementTest {
 			ds.retrieveAllDepartement();
 		}
 		
-		@Test
-		public void testDeleteDepartement(){
-			ds.deleteDepartement((long) 4);
-		}
 		
 		@Test
 		public void testUpdateDepartement(){
-			Departement d = ds.findById((long) 3).get();
+			Departement d = ds.findById((long) 3).orElse(new Departement());
 			d.setNameDepartement("Dep A");
 			ds.saveDepartement(d);
 		}

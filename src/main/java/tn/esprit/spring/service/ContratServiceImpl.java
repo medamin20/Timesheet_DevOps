@@ -24,7 +24,7 @@ public class ContratServiceImpl implements IContratService {
 	@Override
 	public void deleteContratById(int ContratId) {
 
-		Contrat contratManagedentity = contratRepository.findById(ContratId).get();
+		Contrat contratManagedentity = contratRepository.findById(ContratId).orElse(new Contrat());
 		contratRepository.delete(contratManagedentity);
 	}
 

@@ -69,14 +69,7 @@ public class MissionServiceImpTest {
 		
 		
 		
-		//delete a mission (id=2).
 		
-				@Test
-				public void deleteMission() {
-					Mission mission = new Mission();
-					int id = 2;
-					Ms.deleteMission(id);
-				}
 				
 
 	
