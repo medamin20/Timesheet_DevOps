@@ -6,6 +6,7 @@ environment{
 		dockerImage = ''
 	}
   
+  
 
 		agent any 
 	stages{
