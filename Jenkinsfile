@@ -7,7 +7,6 @@ environment{
 	}
   
 
-
 		agent any 
 	stages{
 		stage ('Checkout GIT'){
